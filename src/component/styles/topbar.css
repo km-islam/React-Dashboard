@@ -1,0 +1,63 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  height: 5rem;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+.logo {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(9, 7, 46);
+}
+.topbarRight {
+  display: flex;
+  align-items: center;
+}
+.topbarIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.topbarIconItem {
+  padding: 0 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+.topbarIconItem .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: rgb(39, 39, 39);
+}
+.topbarIconItem span {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  top: -0.5rem;
+  left: 2.2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.profileImg img {
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

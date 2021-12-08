@@ -1,0 +1,65 @@
+.widgetsm {
+  flex: 1;
+  padding: 2rem;
+  margin-right: 1rem;
+  box-shadow: 0 0 1.5rem -0.8rem rgba(0, 0, 0, 0.51);
+}
+.widgetsm h3 {
+  font-size: 2rem;
+}
+.widgetsmListItems {
+  margin-top: 1.5rem;
+}
+.widgetsmListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.widgetsmListItemLeft {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.widgetsmListItemLeft img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.widgetsmUserDetails {
+  padding-left: 2rem;
+}
+.widgetsmUserDetails h4 {
+  font-size: 1.6rem;
+}
+.widgetsmUserDetails span {
+  font-size: 1.4rem;
+}
+.widgetsmListItemRight {
+  text-align: right;
+}
+.widgetsmBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: #eeeef7;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  cursor: pointer;
+}
+.widgetsmBtn .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+.widgetsmBtn span {
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}

@@ -1,0 +1,7 @@
+.chart {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 1.5rem -0.8rem rgba(0, 0, 0, 0.51);
+  font-size: 1.6rem;
+}

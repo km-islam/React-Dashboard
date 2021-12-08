@@ -1,0 +1,123 @@
+.product {
+  flex: 4;
+  padding: 2rem;
+}
+.product .chart {
+  margin: 0;
+}
+.productTop {
+  display: flex;
+  margin-top: 3rem;
+}
+.productTopLeft {
+  flex: 1;
+}
+.productTopRight {
+  flex: 1;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  box-shadow: 0 0 1.5rem -0.8rem rgba(0, 0, 0, 0.51);
+}
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+.productInfoTop img {
+  object-fit: cover;
+  width: 15rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.productInfoTop p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.productInfoBottom {
+  margin-top: 1rem;
+}
+.productInfoItem {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  justify-content: space-between;
+}
+.productInfoItem p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.productInfoItem span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.productBottom {
+  padding: 2rem;
+  box-shadow: 0 0 1.5rem -0.8rem rgba(0, 0, 0, 0.51);
+  margin-top: 4rem;
+}
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+.productFormLeft input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  font-size: 1.8rem;
+}
+.productFormLeft label {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.productFormLeft select {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.productFormRight {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+.productUpload img {
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.productUpload input {
+  display: none;
+}
+.productUpload .MuiSvgIcon-root {
+  cursor: pointer;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.productBtn {
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: teal;
+  color: #fff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}

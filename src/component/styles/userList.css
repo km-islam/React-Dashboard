@@ -1,0 +1,48 @@
+.userList {
+  flex: 4;
+  padding: 0 2rem 2rem 2rem;
+}
+.userList > .MuiDataGrid-root .MuiDataGrid-main {
+  font-size: 2rem;
+}
+.userListUser {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userListUser img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.userListEditBtn {
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #3bb077;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.userListEdit {
+  display: flex;
+  align-items: center;
+}
+.userListEdit .MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+  cursor: pointer;
+  color: red;
+}
+.userList .MuiTypography-body2 {
+  font-size: 2rem;
+}
+.userList .MuiSvgIcon-root {
+  font-size: 2rem;
+}

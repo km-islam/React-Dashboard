@@ -1,0 +1,29 @@
+.productList {
+  flex: 4;
+  padding: 0 2rem 2rem 2rem;
+}
+.productList > .MuiDataGrid-root .MuiDataGrid-main {
+  font-size: 2rem;
+}
+.productListItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.productListImg {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  margin-right: 1rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.productList .MuiTypography-body2 {
+  font-size: 2rem;
+}
+.productList .MuiSvgIcon-root {
+  font-size: 2rem;
+}
